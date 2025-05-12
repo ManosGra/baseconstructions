@@ -1,0 +1,31 @@
+.investement {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("../images/investementbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 132px;
+}
+
+.investement .project-vision-button{
+    padding: 10px 30px;
+  }
+
+@media (max-width: 1200px) {
+    .investment-content {
+        align-items: center;
+    }
+}
+
+@media (max-width: 976px) {
+    .investment-content p {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .investement{
+        padding: 0px 0 50px;  
+    }
+    .project-button{
+      text-align: center;
+    }
+  }

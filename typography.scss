@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'cf_black';
+    src: url('fonts/CFAsty/CFAstyStd-Black.eot');
+    src: url('fonts/CFAsty/CFAstyStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CFAsty/CFAstyStd-Black.woff2') format('woff2'),
+        url('fonts/CFAsty/CFAstyStd-Black.woff') format('woff'),
+        url('fonts/CFAsty/CFAstyStd-Black.ttf') format('truetype'),
+        url('fonts/CFAsty/CFAstyStd-Black.svg#CFAstyStd-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cf_light';
+    src: url('fonts/CFAsty/CFAstyStd-Light.eot');
+    src: url('fonts/CFAsty/CFAstyStd-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CFAsty/CFAstyStd-Light.woff2') format('woff2'),
+        url('fonts/CFAsty/CFAstyStd-Light.woff') format('woff'),
+        url('fonts/CFAsty/CFAstyStd-Light.ttf') format('truetype'),
+        url('fonts/CFAsty/CFAstyStd-Light.svg#CFAstyStd-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cf_bold';
+    src: url('fonts/CFAsty/CFAstyStd-Bold.eot');
+    src: url('fonts/CFAsty/CFAstyStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CFAsty/CFAstyStd-Bold.woff2') format('woff2'),
+        url('fonts/CFAsty/CFAstyStd-Bold.woff') format('woff'),
+        url('fonts/CFAsty/CFAstyStd-Bold.ttf') format('truetype'),
+        url('fonts/CFAsty/CFAstyStd-Bold.svg#CFAstyStd-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cf_regular';
+    src: url('fonts/CFAsty/CFAstyStd-Book.eot');
+    src: url('fonts/CFAsty/CFAstyStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CFAsty/CFAstyStd-Book.woff2') format('woff2'),
+        url('fonts/CFAsty/CFAstyStd-Book.woff') format('woff'),
+        url('fonts/CFAsty/CFAstyStd-Book.ttf') format('truetype'),
+        url('fonts/CFAsty/CFAstyStd-Book.svg#CFAstyStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cf_light-italic';
+    src: url('fonts/CFAsty/CFAstyStd-LightOblique.eot');
+    src: url('fonts/CFAsty/CFAstyStd-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CFAsty/CFAstyStd-LightOblique.woff2') format('woff2'),
+        url('fonts/CFAsty/CFAstyStd-LightOblique.woff') format('woff'),
+        url('fonts/CFAsty/CFAstyStd-LightOblique.ttf') format('truetype'),
+        url('fonts/CFAsty/CFAstyStd-LightOblique.svg#CFAstyStd-LightOblique') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'cf_regular-italic';
+    src: url('fonts/CFAsty/CFAstyStd-BookOblique.eot');
+    src: url('fonts/CFAsty/CFAstyStd-BookOblique.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CFAsty/CFAstyStd-BookOblique.woff2') format('woff2'),
+        url('fonts/CFAsty/CFAstyStd-BookOblique.woff') format('woff'),
+        url('fonts/CFAsty/CFAstyStd-BookOblique.ttf') format('truetype'),
+        url('fonts/CFAsty/CFAstyStd-BookOblique.svg#CFAstyStd-BookOblique') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'cf_bold-italic';
+    src: url('fonts/CFAsty/CFAstyStd-BoldOblique.eot');
+    src: url('fonts/CFAsty/CFAstyStd-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CFAsty/CFAstyStd-BoldOblique.woff2') format('woff2'),
+        url('fonts/CFAsty/CFAstyStd-BoldOblique.woff') format('woff'),
+        url('fonts/CFAsty/CFAstyStd-BoldOblique.ttf') format('truetype'),
+        url('fonts/CFAsty/CFAstyStd-BoldOblique.svg#CFAstyStd-BoldOblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: 'cf_bold';
+    font-size: 64px;
+    line-height: 70.4px;
+}
+
+.h2,
+.h3,
+.h4 {
+    font-family: 'cf_bold';
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+
+.h1{
+    font-size: 40px;
+    line-height: 40px;
+    color: #F97316;
+    font-family: 'cf_bold';
+    font-weight: 800;
+    letter-spacing: 4.2px;
+}
+
+.h5 {
+    font-size: 36px;
+    line-height: 39px;
+    font-weight: bold;
+    font-family: 'cf_bold';
+    color: #F97316;
+}
+
+h6,.h6 {
+    font-size: 22px;
+    line-height: 24px;
+    color: #F97316;
+    font-family: 'cf_bold';
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #F97316;
+    font-weight: bold;
+}
+
+a {
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'cf_bold';
+    color: white;
+}
+
+.font-bold{
+      font-family: 'cf_bold';
+}
+
+  @media only screen and (max-width: 767px) {
+
+
+        h5,.h5 {
+             font-size: 22px;
+        }   
+        h6,.h6 {
+             font-size: 20px;
+        }   
+  }

@@ -1,0 +1,27 @@
+.realestate {
+    padding-top: 95px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../images/realestatebg.png");
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .realestate{
+      padding: 50px 0 0;
+    }
+
+    .content{
+      margin-bottom: 0!important;
+    }
+
+    .project-button{
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .project-button{
+      padding-top: 20px;
+    }
+  }

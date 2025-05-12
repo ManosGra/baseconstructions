@@ -1,0 +1,72 @@
+.headline h1{
+    max-width: 475px;
+}
+
+a:hover{
+    color: #F97316;
+}
+
+.button{
+    padding: 10px;
+    border: 2px solid #F97316;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'cf_bold';
+    color: white;
+}
+
+.button:hover{
+    background-color:white;
+    color: #F97316;
+}
+
+.button:hover a{
+    color: #F97316;
+}
+
+.project-vision-button{
+    margin: 18px 0;
+    padding: 12px 50px;
+    background-color: transparent;
+    border: 3px solid  #F97316;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'cf_bold';
+    color: #F97316;
+}
+
+.project-vision-button a{
+    color: #F97316;
+}
+
+.project-vision-button:hover{
+    background-color: white;
+    color: #F97316;
+}
+
+.popup button {
+    background-color: transparent;
+    color: white;
+}
+
+.popup button:hover {
+    color: #F97316;
+}
+
+.submit{
+    max-width: 200px;
+    margin: 0 auto;
+    border: 2px solid #F97316;
+    background-color: black;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 20px;
+}
+
+.submit:hover{
+    background-color: white;
+    color: #F97316;
+}

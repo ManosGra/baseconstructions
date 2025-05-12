@@ -1,0 +1,91 @@
+.modal-content{
+    background-color: black;
+    border: 2px solid #F97316;
+    border-radius: 6px;
+}
+
+.modal-header{
+    border: none;
+}
+
+.modal-footer{
+    border: none;
+}
+
+#contactModal .btn-white{
+	padding: 12px 50px;
+    background-color: #fff;
+    border: 3px solid #fff;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'cf_bold';
+    color: #F97316;
+    border-radius:0;
+}
+
+#contactModal .btn-white:hover{
+    background-color: #F97316;
+    border: 3px solid #F97316;
+    color: #000;
+
+}
+
+#contactModal input{
+	border-radius:0;
+	 border: 1px solid #fff;
+	 height: 40px;
+	 background-color:transparent;
+	 color: #fff;
+	 transition: all .3s;
+	 outline: 0;
+	 padding:4px 10px;
+
+}
+
+#contactModal textarea{
+	 border: 1px solid #fff;
+	 height: 150px;
+	  background-color:transparent;
+	   color: #fff;
+	    transition: all .3s;
+	    outline: 0;
+	    padding:4px 10px;
+}
+#contactModal textarea:focus,#contactModal textarea:active,
+#contactModal input:focus,#contactModal input:active{
+	 border-color:#F97316 ;
+
+}
+
+#contactModal label{
+	font-size: 12px;
+	 font-family: 'cf_bold';
+
+}
+
+#contactModal .btn-default {
+    padding: 12px 50px;
+    background-color: transparent;
+    border: 3px solid #F97316;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'cf_bold';
+    color: #F97316;
+}
+
+
+#contactModal .btn-default:hover{
+    background-color: #fff;
+}
+
+.privacy-policy-accept{
+    font-size: 12px;
+}
+
+.privacy-policy-accept a{
+    font-size: 12px;
+}
+
+.checkbox{
+    width: 15px;
+}

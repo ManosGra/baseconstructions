@@ -1,0 +1,128 @@
+body {
+    font-family: 'cf_light';
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    overflow-x: hidden;
+}
+.full_box_link {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+}
+.items-list h6 {
+    color: white;
+}
+.items-list ul a {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'cf_light';
+}
+img {
+    max-width: 717px;
+}
+.image-opacity {
+    opacity: 0.5;
+}
+.content-info {
+    margin-bottom: 117px;
+}
+
+.container-content{
+    padding-top:180px;
+    min-height: calc(100vh - 84px);  
+}
+.popup {
+    width: 700px;
+    height: 650x;
+    background-color: black;
+    border: 2px solid #F97316;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px;
+    color: #333;
+    display: none;
+    transition: transform 0.4s, top 0.4s;
+    z-index: 20;
+}
+.open-popup {
+    display: block;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.popup h6 {
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'cf_bold';
+    color: white;
+}
+@media only screen and (max-width: 767px) {
+    .popup {
+        padding: 15px 0;
+        max-width: 550px;
+    }
+    .open-popup {
+        top: 35%;
+    }
+    form {
+        align-items: flex-start!important;
+    }
+    .container-content{
+        padding-top:100px;
+    }
+    .container-content h1{
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .popup {
+        max-width: 421px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .popup {
+        max-width: 350px;
+    }
+}
+svg {
+    margin-bottom: 5px;
+    width: 20px;
+    height: 20px;
+}
+@keyframes top-to-bottom {
+    100% {
+        transform: translateY(60%);
+    }
+}
+.title::before {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: #F97316;
+    position: absolute;
+    left: 0;
+    margin: 10px -100px;
+}
+.way-point {
+    position: relative;
+    transition: all 0.4s;
+}
+.way-point.animate-fade {
+    opacity: 0;
+}
+.way-point.animate-fade.shown {
+    opacity: 1;
+}
+@media only screen and (max-width: 767px) {
+    .title {}
+    .title::before {
+        margin: 10px -80px;
+    }
+}
